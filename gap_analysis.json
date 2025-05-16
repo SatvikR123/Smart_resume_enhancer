@@ -1,1 +1,80 @@
-I cannot perform the requested gap analysis because I do not have access to the content of the candidate's resume.  The provided tools are unusable due to input validation errors, and  without the resume text, a comparison between the resume and job description is impossible.  To provide a detailed gap report, please provide the resume content.
+**Detailed Gap Analysis Report**
+
+**Candidate:** \[Candidate Name]
+
+**Job Title:** \[Job Title]
+
+**Date:** \[Date]
+
+
+**I. Executive Summary:**
+
+This report analyzes the alignment between \[Candidate Name]'s resume and the requirements for the \[Job Title] position. It identifies skill matches, missing skills, experience gaps, and areas for improvement in the resume's presentation and content to enhance its effectiveness with Applicant Tracking Systems (ATS) and hiring managers.
+
+
+**II. Side-by-Side Comparison:**
+
+| Category             | Resume Content                                                                     | Job Requirements                                                        | Gap Analysis                                                                                             |
+|----------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Technical Skills** | \[List skills from resume, e.g., "Proficient in Docker, Kubernetes, AWS (EC2, S3), Python"] | \[List required skills from job description]                             | \[Compare and contrast.  Example: "Docker - Match. Kubernetes - Partial match (needs more detail). AWS - Partial match (missing RDS)."] |
+| **Soft Skills**       | \[List soft skills from resume, e.g., "Excellent communication, problem-solving, teamwork"] | \[List required soft skills from job description]                         | \[Compare and contrast. Quantify achievements where possible.]                                              |
+| **Education/Credentials** | \[Candidate's education and credentials]                                           | \[Required education and credentials]                                     | \[Compare and contrast. Note any discrepancies or equivalent experience.]                                 |
+| **Experience**        | \[Summary of relevant experience with specific accomplishments]                     | \[Required experience level and types of experience]                     | \[Identify experience gaps. Highlight relevant experience, even if not directly matching job title.]       |
+| **Projects/Portfolio** | \[List projects and quantify accomplishments]                                      | \[Preferred or required project experience]                              | \[Analyze alignment of projects with job requirements. Highlight transferable skills.]                     |
+
+
+
+**III. Missing Critical Skills:**
+
+| Skill                | Severity | Rationale                                                                     |
+|----------------------|----------|-----------------------------------------------------------------------------|
+| \[Missing Skill 1]   | High     | \[Explain why this skill is critical]                                          |
+| \[Missing Skill 2]   | Medium   | \[Explain why this skill is important]                                         |
+| \[Missing Skill 3]   | Low      | \[Explain why this skill is desirable but not strictly essential]                 |
+
+
+**IV. Partial Matches Requiring Strengthening:**
+
+| Skill                | Rationale                                                                         | Improvement Suggestions                                                       |
+|----------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| \[Partial Match 1]   | \[Explain why this skill needs strengthening]                                    | \[Provide specific examples, quantify achievements, and add more detail.]    |
+| \[Partial Match 2]   | \[Explain why this skill needs strengthening]                                    | \[Provide specific examples, quantify achievements, and add more detail.]    |
+
+
+**V. Experience Gaps:**
+
+| Duration             | Role Type(s)   | Mitigation Strategies                                                           |
+|----------------------|-----------------|--------------------------------------------------------------------------------|
+| \[Duration]          | \[Role Types]   | \[Explain how to address gap, e.g., "Highlight transferable skills," "Volunteer experience"] |
+
+
+**VI. Potential Transferable Skills:**
+
+| Skill                | Source        | Application to Target Role                                                      |
+|----------------------|---------------|------------------------------------------------------------------------------|
+| \[Transferable Skill]| \[Resume Section]| \[Explain how this skill is relevant to the target role]                          |
+
+
+
+**VII. Formatting/Content Issues Hurting ATS Score:**
+
+| Issue                  | Recommendation                                                              |
+|------------------------|---------------------------------------------------------------------------|
+| \[Formatting Issue 1]  | \[Use keywords, improve formatting, etc.]                                      |
+| \[Formatting Issue 2]  | \[Use keywords, improve formatting, etc.]                                      |
+
+
+**VIII. Opportunities to Better Showcase Relevant Experience:**
+
+| Improvement Area       | Recommendation                                                                   |
+|------------------------|-------------------------------------------------------------------------------|
+| \[Area 1]             | \[Use the STAR method, quantify achievements, add more detail to accomplishments]|
+| \[Area 2]             | \[Use the STAR method, quantify achievements, add more detail to accomplishments]|
+
+
+**IX. Conclusion and Recommendations:**
+
+\[Summarize key findings and provide actionable recommendations for improving the resume to better match the job requirements.  Prioritize the recommendations based on the severity of the gaps identified.]
+
+
+This template requires the resume and job description to populate the content accurately.  Once those documents are provided, I can complete this report.
