@@ -1,6 +1,6 @@
-# Code_Resune: AI-Powered Resume Optimization
+# Smart_Resume_Enhancer: AI-Powered Resume Optimization
 
-Code_Resune is an intelligent resume optimization tool that uses AI agents to analyze job descriptions, identify gaps in your resume, and provide tailored recommendations to improve your chances of landing interviews.
+Smart_Resume_Enhancer is an intelligent resume optimization tool that uses AI agents to analyze job descriptions, identify gaps in your resume, and provide tailored recommendations to improve your chances of landing interviews.
 
 ## Overview
 
