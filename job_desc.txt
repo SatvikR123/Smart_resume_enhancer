@@ -1,0 +1,44 @@
+Job Title: DevOps Engineer  
+Location: Remote / Bengaluru, India  
+Job Type: Full-Time  
+
+About the Company:  
+TechSphere is a fast-growing cloud-native startup focused on delivering scalable SaaS solutions to clients in fintech and healthcare. We embrace DevOps culture and prioritize automation, reliability, and collaboration across teams.
+
+Job Description:  
+We are seeking a proactive and skilled DevOps Engineer to join our engineering team. The ideal candidate will be responsible for implementing CI/CD pipelines, managing infrastructure as code, monitoring systems, and enhancing our deployment workflows.
+
+Responsibilities:
+- Design, implement, and manage CI/CD pipelines (e.g., Jenkins, GitHub Actions, GitLab CI).
+- Automate infrastructure provisioning using tools like Terraform or AWS CloudFormation.
+- Monitor and troubleshoot production systems for uptime and performance issues.
+- Collaborate with developers to containerize applications using Docker and orchestrate using Kubernetes.
+- Ensure high availability and disaster recovery strategies are in place.
+- Maintain security and compliance in deployment processes.
+- Write documentation and train team members on DevOps best practices.
+
+Required Qualifications:
+- Bachelor’s degree in Computer Science, Engineering, or a related field.
+- 3+ years of experience in DevOps or Site Reliability Engineering.
+- Strong knowledge of cloud platforms (AWS, Azure, or GCP).
+- Hands-on experience with Docker, Kubernetes, and container orchestration.
+- Proficiency in scripting languages such as Bash or Python.
+- Experience with monitoring tools like Prometheus, Grafana, or ELK stack.
+
+Preferred Qualifications:
+- Certification in AWS/Azure DevOps.
+- Experience with Infrastructure as Code (Terraform, Ansible).
+- Familiarity with security best practices and DevSecOps.
+- Exposure to agile methodologies and version control (Git).
+
+Perks & Benefits:
+- Competitive salary and performance bonuses.
+- Remote-first culture with flexible working hours.
+- Learning and development budget.
+- Health insurance and wellness allowance.
+- Opportunity to work with cutting-edge DevOps technologies.
+
+Company Culture:
+- We value innovation, ownership, and a collaborative mindset.
+- We support continuous learning and encourage knowledge sharing.
+- We're a team of problem solvers who thrive in dynamic environments.
