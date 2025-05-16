@@ -17,6 +17,22 @@ This project uses the CrewAI framework to create a team of specialized AI agents
 - **Gap Analysis**: Identifies missing skills and experience in your resume compared to job requirements
 - **Resume Optimization**: Provides actionable recommendations to improve your resume
 - **Resume Transformation**: Creates an enhanced version of your resume tailored to the job
+- 
+## Screenshots
+
+### 📊 Job Description Analysis
+![JD Analysis Output](SS/jd.png)
+
+### 🔍 Gap Analysis Output
+![Gap Analysis](SS/gap.png)
+![Gap Analysis](SS/gap_2.png)
+
+### 🧠 Resume Recommendations
+![Resume Recommendations](SS/rag.png)
+
+### 📝 Enhanced Resume Preview
+![Enhanced Resume](SS/transform.png)
+
 
 ## Prerequisites
 
