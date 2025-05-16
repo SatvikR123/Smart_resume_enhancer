@@ -27,8 +27,8 @@ This project uses the CrewAI framework to create a team of specialized AI agents
 ![Gap Analysis](SS/gap.png)
 ![Gap Analysis](SS/gap_2.png)
 
-### 🧠 Resume Recommendations
-![Resume Recommendations](SS/rag.png)
+### 🧠 Resume Optmization
+![Resume Optimization](SS/optim.png)
 
 ### 📝 Enhanced Resume Preview
 ![Enhanced Resume](SS/transform.png)
