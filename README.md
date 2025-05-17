@@ -11,6 +11,10 @@ This project uses the CrewAI framework to create a team of specialized AI agents
 3. Generate recommendations for resume optimization
 4. Create an enhanced version of your resume tailored to the job
 
+## Workflow
+
+![Workflow of the Project](Workflow.jpeg)
+
 ## Features
 
 - **Job Description Analysis**: Extracts technical skills, soft skills, qualifications, and responsibilities from job descriptions
