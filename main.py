@@ -1,11 +1,29 @@
+"""
+Broadly we have to create a resume optimizer tool that will take a resume and a job description as input and output a polished resume that is optimized for the job description. 
+
+For this we have to create a crew of agents that will perform different tasks to optimize the resume.
+
+The crew will be:
+1. Job Description Analyst
+2. Resume-JD Gap Analyst
+3. Resume Optimization Coach
+4. Resume Transformation Specialist
+
+"""
+
+# Importing necessary libraries
 from crewai import Agent, Crew, Process, Task, LLM
 from crewai_tools import PDFSearchTool, TXTSearchTool
 from dotenv import load_dotenv
 import os
 from os.path import join, dirname
+
+# Configuirng the environment
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+# Setting up the LLM
 llm = LLM(
     model="gemini/gemini-1.5-flash",  
     api_key=f"{GOOGLE_API_KEY}",  
@@ -14,9 +32,9 @@ llm = LLM(
     }
 )
 
-# Get absolute path for Resume.pdf
+# Setting up the tools
+# PDF Search Tool
 resume_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "Resume.pdf"))
-
 pdf_search_tool = PDFSearchTool(
     pdf=resume_path,
     config=dict(
@@ -36,9 +54,8 @@ pdf_search_tool = PDFSearchTool(
     )
 )
 
-# Get absolute path for job_desc.txt
+# TXT Search Tool
 job_desc_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "devops_job_desc.txt"))
-
 txt_search_tool = TXTSearchTool(
     txt=job_desc_path,
     config=dict(
@@ -60,6 +77,8 @@ txt_search_tool = TXTSearchTool(
 
 
 # Setting up the agents
+
+# Job Description Analyst
 jd_agent = Agent(
     role="Job Description Analyst",
     goal="Thoroughly analyze job descriptions to extract technical skills, soft skills, qualifications, and key responsibilities",
@@ -82,6 +101,7 @@ jd_agent = Agent(
     """
 )
 
+# Resume-JD Gap Analyst
 gap_agent = Agent(
     role="Resume-JD Gap Analyst",
     goal="Systematically compare resume content with job requirements to identify missing and weak areas",
@@ -104,6 +124,7 @@ gap_agent = Agent(
     """
 )
 
+# Resume Optimization Coach
 rag_agent = Agent(
     role="Resume Optimization Coach",
     goal="Provide data-driven suggestions for resume improvement using industry best practices",
@@ -128,6 +149,7 @@ rag_agent = Agent(
     """
 )
 
+# Resume Transformation Specialist
 enhancer_agent = Agent(
     role="Resume Transformation Specialist",
     goal="Rewrite resume content to closely align with job requirements while maintaining authenticity",
