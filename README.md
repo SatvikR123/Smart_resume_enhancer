@@ -94,9 +94,6 @@ You can customize the behavior of the agents by modifying their roles, goals, an
 - If you encounter errors related to the tools, make sure your PDF and text files are in the correct location and format
 - Check that your Google API key is valid and has access to the Gemini models
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
